@@ -1,0 +1,10 @@
+footer img{
+    width: 25px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0.3rem;
+    opacity: 0.8;
+}

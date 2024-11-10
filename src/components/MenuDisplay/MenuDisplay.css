@@ -1,0 +1,62 @@
+.menu-item {
+  display: grid;
+  grid-template-rows: auto minmax(100px, 2fr) auto;
+  column-gap: 10px;
+  width: 35vw;
+  background-color: #cfcbe1;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 8px 10px 8px 1px rgba(66, 62, 62, 0.288);
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: rgb(190, 190, 51);
+  color: black;
+}
+
+.menu-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: 0;
+  filter: drop-shadow(3px 3px 6px rgb(71, 68, 68));
+}
+
+.menu-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.menu-item-info .menu-item-name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.menu-item-info h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item-otherinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu-item-otherinfo p {
+  color: white;
+}
+
+.menu-item-otherinfo .menu-item-otherinfo-price {
+  color: #243d25;
+  font-weight: bold;
+  font-size: medium;
+}

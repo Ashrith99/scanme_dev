@@ -1,0 +1,27 @@
+.main-container{
+    min-width: 99vw;
+    min-height: 99vh;
+    width: 99vw;
+    height: auto;
+    margin: auto;
+}
+.restaurant-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.restaurant-img{
+    width: 100%;
+    text-align: center;
+}
+.restaurant-img img{
+    width: 80%;
+    border-radius: 50%;    
+    
+}
+.restaurant-desc{
+    width: 90%;
+    margin: 0.4rem auto;
+    font-size: 1.1rem;
+    text-align: justify;
+}
